@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>学生信息</title>
+<link rel="stylesheet" type="text/css" href="/public/css/user/index.css">
+<link rel="stylesheet" href="/public/css/index/bootstrap.min.css">
+<!--<link rel="stylesheet" href="/public/css/index/bootstrap-theme.min.css">-->
+<link rel="stylesheet" href="/public/css/index/flat-ui.min.css">
+<script src="/public/js/index/jquery-3.1.1.min.js"></script>
+<!--<script src="/public/js/index/bootstrap.min.js"></script>-->
+<script src="/public/js/index/flat-ui.min.js"></script>
+<script lang="javascript" type="text/javascript" src="/public/js/user/index.js"></script>
+</head>
+<body>
+	<div class="header">
+		{include file="../application/index/view/include/header.html" uname="$userInfo.uname" /}
+	</div>
+	<div class="main">
+		<div class="left">
+			{include file="../application/index/view/include/left.html" /}
+		</div>
+		<div class=center>
+			<div class="panel panel-primary">
+				<div class="panel-heading">学生信息</div>
+  				<table class="table">
+					  <tr>
+						  <td>学号</td>
+						  <td>{$userInfo.uid}</td>
+					  </tr>
+					  <tr>
+						  <td>姓名</td>
+						  <td>{$userInfo.uname}</td>
+					  </tr>
+					  <tr>
+						  <td>性别</td>
+						  <td>
+							  {switch $userInfo.sex}
+    							{case value="0"}男{/case}
+    							{case value="1"}女{/case}
+							  {/switch}
+						  </td>
+					  </tr>
+					  <tr>
+						  <td>民族</td>
+						  <td>{$userInfo.nation}</td>
+					  </tr>
+					  <tr>
+						  <td>政治面貌</td>
+						  <td>{$userInfo.political_status}</td>
+					  </tr>
+					  <tr>
+						  <td>生日</td>
+						  <td>{$userInfo.birthday}</td>
+					  </tr>
+					  <tr>
+						  <td>身份证</td>
+						  <td>{$userInfo.id_card}</td>
+					  </tr>
+					  <tr>
+						  <td>院系</td>
+						  <td>{$userInfo.fname}</td>
+					  </tr>
+					  <tr>
+						  <td>入学年</td>
+						  <td>{$userInfo.start_school}</td>
+					  </tr>
+					  <tr>
+						  <td>专业</td>
+						  <td>{$userInfo.spname}</td>
+					  </tr>
+					  <tr>
+						  <td>修学年限</td>
+						  <td>{$userInfo.attend_school_year}</td>
+					  </tr>
+					  <tr>
+						  <td>班级</td>
+						  <td>{$userInfo.class}</td>
+					  </tr>
+					  <tr>
+						  <td>年级</td>
+						  <td>{$userInfo.grade}</td>
+					  </tr>
+					  <tr>
+						  <td>在校</td>
+						  <td>{$userInfo.is_inschool==1?'是':'否'}</td>
+					  </tr>
+					  <tr>
+						  <td>考号</td>
+						  <td>{$userInfo.test_number}</td>
+					  </tr>					  					  
+  				</table>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		{include file="../application/index/view/include/footer.html" /}
+	</div>
+</body>
+</html>

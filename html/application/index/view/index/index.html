@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>主页</title>
+<link rel="stylesheet" type="text/css" href="/public/css/index/index.css">
+<link rel="stylesheet" href="/public/css/index/bootstrap.min.css">
+<!--<link rel="stylesheet" href="/public/css/index/bootstrap-theme.min.css">-->
+<link rel="stylesheet" href="/public/css/index/flat-ui.min.css">
+<script src="/public/js/index/jquery-3.1.1.min.js"></script>
+<!--<script src="/public/js/index/bootstrap.min.js"></script>-->
+<script src="/public/js/index/flat-ui.min.js"></script>
+<script lang="javascript" type="text/javascript" src="/public/js/index/index.js"></script>
+</head>
+<body>
+	<div class="header">
+		{include file="../application/index/view/include/header.html" uname="$userInfo.uname" /}
+	</div>
+	<div class="main">
+		<div class="left">
+			<div class="panel panel-default">
+  				<div class="panel-heading">最新</div>
+  			<div class="panel-body">
+    			<div class="list-group" id="new_course_list">
+
+    			</div>
+  			</div>
+		</div>
+		</div>
+		<div class=center>
+			<div  id='course_info' class="row">
+                
+        	</div>
+			<div class="update_wait">
+    			<img src="/public/img/loging.gif" alt="">
+  			</div>
+		</div>
+	</div>
+	<div class="footer">
+		{include file="../application/index/view/include/footer.html" /}
+	</div>
+</body>
+</html>

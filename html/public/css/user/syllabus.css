@@ -1,0 +1,42 @@
+.main
+{
+    height: 460px;
+    margin-bottom: 10px;
+}
+.left
+{
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+.center
+{
+    float: left;
+    width: 80%;
+    padding: 0px 20px 0px 20px;
+    height: 100%;
+    overflow: scroll;
+}
+.footer
+{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+}
+.search_wait
+{
+  z-index: 100000;
+  background-color: rgba(1,0,0,0.5);
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  display: none;
+}
+.search_wait img
+{
+    width: 60px;
+    margin: 25% 50%;
+}

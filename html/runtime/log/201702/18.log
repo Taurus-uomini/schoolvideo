@@ -1,0 +1,3019 @@
+[ 2017-02-18T09:56:46+08:00 ] ::1 ::1 GET /public/index.php/index/Index
+[ log ] localhost/public/index.php/index/Index [运行时间：0.575413s][吞吐率：1.74req/s] [内存消耗：2,162.35kb] [文件加载：46]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T09:56:46+08:00 ] ::1 ::1 GET /public/index.php/index/login/login.html
+[ log ] localhost/public/index.php/index/login/login.html [运行时间：0.078631s][吞吐率：12.72req/s] [内存消耗：2,054.41kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T09:56:55+08:00 ] ::1 ::1 POST /public/index.php/index/login/getverifyCode
+[ log ] localhost/public/index.php/index/login/getverifyCode [运行时间：7.690535s][吞吐率：0.13req/s] [内存消耗：1,768.57kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'getverifyCode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://localhost/public/index.php/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->getverifyCode[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T09:57:25+08:00 ] ::1 ::1 POST /public/index.php/index/login/ajax_login
+[ log ] localhost/public/index.php/index/login/ajax_login [运行时间：6.533431s][吞吐率：0.15req/s] [内存消耗：2,661.30kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'ajax_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '95',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/public/index.php/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '201411041',
+  'password' => '201411041',
+  'yzm' => '7578',
+  'imgsrc' => 'verifyCodea31969446ed1573c3be6ad8998cbe670.jpg',
+)
+[ info ] [ RUN ] app\index\controller\Login->ajax_login[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005066s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `faculty` [ RunTime:0.002606s ]
+[ sql ] [ SQL ] SELECT * FROM `faculty` WHERE  `fname` = '计算机工程学院' LIMIT 1    [ RunTime:0.000947s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001535s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `specialty` [ RunTime:0.003065s ]
+[ sql ] [ SQL ] SELECT * FROM `specialty` WHERE  `spname` = '计算机科学与技术'  AND `fid` = 2 LIMIT 1     [ RunTime:0.003337s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001334s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmis` [ RunTime:0.002567s ]
+[ sql ] [ SQL ] SELECT * FROM `cmis` WHERE  `spid` = 2  AND `test_number` = '14330654159167' LIMIT 1     [ RunTime:0.000910s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001288s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] UPDATE `cmis`  SET `spid`=2,`start_school`='2014',`attend_school_year`=4,`class`='14计算机2班',`grade`='三年级',`is_inschool`=1,`test_number`='14330654159167'  WHERE  `spid` = 2  AND `test_number` = '14330654159167'            [ RunTime:0.024820s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001611s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.002979s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000840s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001572s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] UPDATE `users`  SET `uid`='201411041',`password`='ba53ac25a2d11c2eb49ac8d37fe88340',`uname`='魏煜宸',`sex`=0,`nation`='汉族',`political_status`='共青团员',`birthday`='1994-05-01',`id_card`='340321199405013094',`cmid`=3  WHERE  `uid` = '201411041'             [ RunTime:0.023703s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T09:57:28+08:00 ] ::1 ::1 GET /public/index.php/index/Index
+[ log ] localhost/public/index.php/index/Index [运行时间：0.073320s][吞吐率：13.64req/s] [内存消耗：2,899.75kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/index/index.html [ array (
+  0 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000847s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001709s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000798s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T09:57:32+08:00 ] ::1 ::1 GET /public/index.php/index/user/index
+[ log ] localhost/public/index.php/index/user/index [运行时间：0.114215s][吞吐率：8.76req/s] [内存消耗：2,930.09kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/Index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/index.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003472s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.002594s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000832s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T09:57:42+08:00 ] ::1 ::1 GET /public/index.php/index/user/syllabus
+[ log ] localhost/public/index.php/index/user/syllabus [运行时间：6.724302s][吞吐率：0.15req/s] [内存消耗：2,970.02kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/syllabus.html [ array (
+  0 => 'syy',
+  1 => 'syllabus',
+  2 => 'menu',
+  3 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000556s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001663s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.001048s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T09:57:55+08:00 ] ::1 ::1 POST /public/index.php/index/user/ajax_syllabus
+[ log ] localhost/public/index.php/index/user/ajax_syllabus [运行时间：7.020214s][吞吐率：0.14req/s] [内存消耗：2,118.88kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '7',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+  'year' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T16:02:12+08:00 ] ::1 ::1 GET /public/index.php/index/user/syllabus
+[ log ] localhost/public/index.php/index/user/syllabus [运行时间：7.249671s][吞吐率：0.14req/s] [内存消耗：3,024.72kb] [文件加载：54]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000669s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001878s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000764s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:02:18+08:00 ] ::1 ::1 POST /public/index.php/index/user/ajax_syllabus
+[ log ] localhost/public/index.php/index/user/ajax_syllabus [运行时间：6.400112s][吞吐率：0.16req/s] [内存消耗：2,102.86kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '7',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+  'year' => '14',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T16:02:18+08:00 ] ::1 ::1 GET /public/index.php/index/login/logout
+[ log ] localhost/public/index.php/index/login/logout [运行时间：0.051437s][吞吐率：19.44req/s] [内存消耗：2,057.24kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->logout[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T16:02:30+08:00 ] ::1 ::1 POST /public/index.php/index/login/getverifyCode
+[ log ] localhost/public/index.php/index/login/getverifyCode [运行时间：12.041625s][吞吐率：0.08req/s] [内存消耗：1,768.75kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'getverifyCode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://localhost/public/index.php/index/login/logout',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->getverifyCode[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T16:02:50+08:00 ] ::1 ::1 GET /public/index.php/index/login/logout
+[ log ] localhost/public/index.php/index/login/logout [运行时间：0.160626s][吞吐率：6.23req/s] [内存消耗：2,308.00kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->logout[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]unlink(/cookie_oschina.txt): No such file or directory[/var/www/html/application/index/controller/Login.php:15]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:02:50+08:00 ] ::1 ::1 GET /public/index.php/index/login/public/img/loging.gif
+[ log ] localhost/public/index.php/index/login/public/img/loging.gif [运行时间：0.075614s][吞吐率：13.23req/s] [内存消耗：1,805.26kb] [文件加载：40]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'public',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/login/logout',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+  'img' => 'loging.gif',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T16:03:02+08:00 ] ::1 ::1 POST /public/index.php/index/login/getverifyCode
+[ log ] localhost/public/index.php/index/login/getverifyCode [运行时间：12.205117s][吞吐率：0.08req/s] [内存消耗：1,768.79kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'getverifyCode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://localhost/public/index.php/index/login/logout',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->getverifyCode[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T16:03:30+08:00 ] ::1 ::1 GET /public/index.php/index/login/logout
+[ log ] localhost/public/index.php/index/login/logout [运行时间：0.039316s][吞吐率：25.43req/s] [内存消耗：2,308.00kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->logout[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]unlink(/cookie_oschina.txt): No such file or directory[/var/www/html/application/index/controller/Login.php:15]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:03:42+08:00 ] ::1 ::1 POST /public/index.php/index/login/getverifyCode
+[ log ] localhost/public/index.php/index/login/getverifyCode [运行时间：12.402240s][吞吐率：0.08req/s] [内存消耗：1,768.79kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'getverifyCode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://localhost/public/index.php/index/login/logout',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->getverifyCode[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T16:03:58+08:00 ] ::1 ::1 POST /public/index.php/index/login/ajax_login
+[ log ] localhost/public/index.php/index/login/ajax_login [运行时间：6.148110s][吞吐率：0.16req/s] [内存消耗：2,661.27kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'ajax_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '95',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/public/index.php/index/login/logout',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '201411041',
+  'password' => '201411041',
+  'yzm' => '3472',
+  'imgsrc' => 'verifyCodef06cd2c98507193edf36e060b68a5aff.jpg',
+)
+[ info ] [ RUN ] app\index\controller\Login->ajax_login[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002549s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `faculty` [ RunTime:0.001313s ]
+[ sql ] [ SQL ] SELECT * FROM `faculty` WHERE  `fname` = '计算机工程学院' LIMIT 1    [ RunTime:0.000429s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000398s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `specialty` [ RunTime:0.001359s ]
+[ sql ] [ SQL ] SELECT * FROM `specialty` WHERE  `spname` = '计算机科学与技术'  AND `fid` = 2 LIMIT 1     [ RunTime:0.000416s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000361s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmis` [ RunTime:0.001164s ]
+[ sql ] [ SQL ] SELECT * FROM `cmis` WHERE  `spid` = 2  AND `test_number` = '14330654159167' LIMIT 1     [ RunTime:0.000418s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000385s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] UPDATE `cmis`  SET `spid`=2,`start_school`='2014',`attend_school_year`=4,`class`='14计算机2班',`grade`='三年级',`is_inschool`=1,`test_number`='14330654159167'  WHERE  `spid` = 2  AND `test_number` = '14330654159167'            [ RunTime:0.040004s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000632s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001433s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000580s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000923s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] UPDATE `users`  SET `uid`='201411041',`password`='ba53ac25a2d11c2eb49ac8d37fe88340',`uname`='魏煜宸',`sex`=0,`nation`='汉族',`political_status`='共青团员',`birthday`='1994-05-01',`id_card`='340321199405013094',`cmid`=3  WHERE  `uid` = '201411041'             [ RunTime:0.027170s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:04:07+08:00 ] ::1 ::1 GET /public/index.php/index/user/ajax_syllabus
+[ log ] localhost/public/index.php/index/user/ajax_syllabus [运行时间：6.536536s][吞吐率：0.15req/s] [内存消耗：2,090.39kb] [文件加载：44]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/login/logout',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T16:04:17+08:00 ] ::1 ::1 GET /public/index.php/index/user
+[ log ] localhost/public/index.php/index/user [运行时间：0.055207s][吞吐率：18.11req/s] [内存消耗：2,929.86kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/index.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002389s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001528s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000777s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:04:19+08:00 ] ::1 ::1 GET /public/index.php/index/syllabus
+[ log ] localhost/public/index.php/index/syllabus [运行时间：0.030455s][吞吐率：32.84req/s] [内存消耗：1,759.66kb] [文件加载：39]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'syllabus',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T16:04:28+08:00 ] ::1 ::1 GET /public/index.php/index/
+[ log ] localhost/public/index.php/index/ [运行时间：0.062848s][吞吐率：15.91req/s] [内存消耗：2,899.31kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/index/index.html [ array (
+  0 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002600s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000673s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:04:30+08:00 ] ::1 ::1 GET /public/index.php/index/index/index
+[ log ] localhost/public/index.php/index/index/index [运行时间：0.040509s][吞吐率：24.69req/s] [内存消耗：2,899.68kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/index/index.html [ array (
+  0 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000442s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001337s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000604s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:04:32+08:00 ] ::1 ::1 GET /public/index.php/index/user/index
+[ log ] localhost/public/index.php/index/user/index [运行时间：0.052927s][吞吐率：18.89req/s] [内存消耗：2,929.89kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/index.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000661s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001460s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000816s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:04:41+08:00 ] ::1 ::1 GET /public/index.php/index/user/syllabus
+[ log ] localhost/public/index.php/index/user/syllabus [运行时间：7.247501s][吞吐率：0.14req/s] [内存消耗：3,177.18kb] [文件加载：54]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/syllabus.html [ array (
+  0 => 'syy',
+  1 => 'syllabus',
+  2 => 'menu',
+  3 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000524s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001558s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000760s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:04:48+08:00 ] ::1 ::1 GET /public/index.php/index/user/syllabus
+[ log ] localhost/public/index.php/index/user/syllabus [运行时间：11.864694s][吞吐率：0.08req/s] [内存消耗：2,969.91kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/syllabus.html [ array (
+  0 => 'syy',
+  1 => 'syllabus',
+  2 => 'menu',
+  3 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000551s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001888s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000810s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:12:20+08:00 ] ::1 ::1 GET /public/index.php/index/user/syllabus
+[ log ] localhost/public/index.php/index/user/syllabus [运行时间：6.763356s][吞吐率：0.15req/s] [内存消耗：2,970.35kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/syllabus.html [ array (
+  0 => 'syy',
+  1 => 'syllabus',
+  2 => 'menu',
+  3 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000492s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001481s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000627s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:12:36+08:00 ] ::1 ::1 POST /public/index.php/index/user/ajax_syllabus
+[ log ] localhost/public/index.php/index/user/ajax_syllabus [运行时间：6.098260s][吞吐率：0.16req/s] [内存消耗：2,118.90kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '7',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+  'year' => '14',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T16:13:25+08:00 ] ::1 ::1 GET /public/index.php/index/user/syllabus
+[ log ] localhost/public/index.php/index/user/syllabus [运行时间：6.583940s][吞吐率：0.15req/s] [内存消耗：2,970.38kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/syllabus.html [ array (
+  0 => 'syy',
+  1 => 'syllabus',
+  2 => 'menu',
+  3 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000683s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.002423s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000600s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:13:36+08:00 ] ::1 ::1 POST /public/index.php/index/user/ajax_syllabus
+[ log ] localhost/public/index.php/index/user/ajax_syllabus [运行时间：6.142623s][吞吐率：0.16req/s] [内存消耗：2,118.90kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '7',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+  'year' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T16:13:40+08:00 ] ::1 ::1 GET /public/index.php/index/Login/logout
+[ log ] localhost/public/index.php/index/Login/logout [运行时间：0.033820s][吞吐率：29.57req/s] [内存消耗：2,057.24kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->logout[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T16:13:57+08:00 ] ::1 ::1 POST /public/index.php/index/Login/getverifyCode
+[ log ] localhost/public/index.php/index/Login/getverifyCode [运行时间：12.346349s][吞吐率：0.08req/s] [内存消耗：1,768.75kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'getverifyCode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://localhost/public/index.php/index/Login/logout',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->getverifyCode[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T16:14:29+08:00 ] ::1 ::1 POST /public/index.php/index/Login/ajax_login
+[ log ] localhost/public/index.php/index/Login/ajax_login [运行时间：21.832581s][吞吐率：0.05req/s] [内存消耗：2,661.27kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'ajax_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '95',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/public/index.php/index/Login/logout',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '201411041',
+  'password' => '201411041',
+  'yzm' => '7654',
+  'imgsrc' => 'verifyCodedfad63bbeef77442221c1a6bd7e98336.jpg',
+)
+[ info ] [ RUN ] app\index\controller\Login->ajax_login[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000528s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `faculty` [ RunTime:0.001424s ]
+[ sql ] [ SQL ] SELECT * FROM `faculty` WHERE  `fname` = '计算机工程学院' LIMIT 1    [ RunTime:0.000510s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000499s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `specialty` [ RunTime:0.001437s ]
+[ sql ] [ SQL ] SELECT * FROM `specialty` WHERE  `spname` = '计算机科学与技术'  AND `fid` = 2 LIMIT 1     [ RunTime:0.000479s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000412s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmis` [ RunTime:0.001498s ]
+[ sql ] [ SQL ] SELECT * FROM `cmis` WHERE  `spid` = 2  AND `test_number` = '14330654159167' LIMIT 1     [ RunTime:0.000723s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000485s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] UPDATE `cmis`  SET `spid`=2,`start_school`='2014',`attend_school_year`=4,`class`='14计算机2班',`grade`='三年级',`is_inschool`=1,`test_number`='14330654159167'  WHERE  `spid` = 2  AND `test_number` = '14330654159167'            [ RunTime:0.052005s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000793s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.002297s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000834s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000688s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] UPDATE `users`  SET `uid`='201411041',`password`='ba53ac25a2d11c2eb49ac8d37fe88340',`uname`='魏煜宸',`sex`=0,`nation`='汉族',`political_status`='共青团员',`birthday`='1994-05-01',`id_card`='340321199405013094',`cmid`=3  WHERE  `uid` = '201411041'             [ RunTime:0.026170s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:14:40+08:00 ] ::1 ::1 GET /public/index.php/index/user/ajax_syllabus
+[ log ] localhost/public/index.php/index/user/ajax_syllabus [运行时间：6.369586s][吞吐率：0.16req/s] [内存消耗：2,090.39kb] [文件加载：44]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/Login/logout',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T16:15:02+08:00 ] ::1 ::1 GET /public/index.php/index/user/syllabus
+[ log ] localhost/public/index.php/index/user/syllabus [运行时间：1.369816s][吞吐率：0.73req/s] [内存消耗：2,969.74kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/syllabus.html [ array (
+  0 => 'syy',
+  1 => 'syllabus',
+  2 => 'menu',
+  3 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000542s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001375s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000695s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:15:15+08:00 ] ::1 ::1 POST /public/index.php/index/user/ajax_syllabus
+[ log ] localhost/public/index.php/index/user/ajax_syllabus [运行时间：8.642201s][吞吐率：0.12req/s] [内存消耗：2,118.90kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '7',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+  'year' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T16:15:23+08:00 ] ::1 ::1 GET /public/index.php/index/user/index
+[ log ] localhost/public/index.php/index/user/index [运行时间：0.047345s][吞吐率：21.12req/s] [内存消耗：2,929.85kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/index.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000667s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001448s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000734s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:15:32+08:00 ] ::1 ::1 GET /public/index.php/index/user/syllabus
+[ log ] localhost/public/index.php/index/user/syllabus [运行时间：7.149665s][吞吐率：0.14req/s] [内存消耗：2,969.91kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/syllabus.html [ array (
+  0 => 'syy',
+  1 => 'syllabus',
+  2 => 'menu',
+  3 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001354s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000744s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:15:43+08:00 ] ::1 ::1 POST /public/index.php/index/user/ajax_syllabus
+[ log ] localhost/public/index.php/index/user/ajax_syllabus [运行时间：2.875883s][吞吐率：0.35req/s] [内存消耗：2,118.90kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '7',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+  'year' => '13',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T16:17:03+08:00 ] ::1 ::1 POST /public/index.php/index/user/ajax_syllabus
+[ log ] localhost/public/index.php/index/user/ajax_syllabus [运行时间：7.108559s][吞吐率：0.14req/s] [内存消耗：2,118.90kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '7',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+  'year' => '12',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T16:27:51+08:00 ] ::1 ::1 GET /public/index.php/index/user/index
+[ log ] localhost/public/index.php/index/user/index [运行时间：0.049905s][吞吐率：20.04req/s] [内存消耗：3,130.38kb] [文件加载：54]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/index.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000519s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001481s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000644s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:28:03+08:00 ] ::1 ::1 GET /public/index.php/index/user/index
+[ log ] localhost/public/index.php/index/user/index [运行时间：0.036545s][吞吐率：27.36req/s] [内存消耗：2,932.32kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/index.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000586s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001394s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000772s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:28:10+08:00 ] ::1 ::1 GET /public/index.php/index/user/syllabus
+[ log ] localhost/public/index.php/index/user/syllabus [运行时间：6.666962s][吞吐率：0.15req/s] [内存消耗：3,180.08kb] [文件加载：54]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/syllabus.html [ array (
+  0 => 'syy',
+  1 => 'syllabus',
+  2 => 'menu',
+  3 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000618s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001546s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000675s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:28:12+08:00 ] ::1 ::1 GET /public/index.php/index/user/index
+[ log ] localhost/public/index.php/index/user/index [运行时间：0.043347s][吞吐率：23.07req/s] [内存消耗：2,932.58kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/index.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000467s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001361s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000678s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:28:22+08:00 ] ::1 ::1 GET /public/index.php/index/user/index
+[ log ] localhost/public/index.php/index/user/index [运行时间：0.041539s][吞吐率：24.07req/s] [内存消耗：2,933.05kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/index.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000531s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001289s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000587s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:28:32+08:00 ] ::1 ::1 GET /public/index.php/index/user/index
+[ log ] localhost/public/index.php/index/user/index [运行时间：0.046681s][吞吐率：21.42req/s] [内存消耗：2,932.32kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/index.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000624s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001497s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000761s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:31:09+08:00 ] ::1 ::1 GET /public/index.php/index/user/index
+[ log ] localhost/public/index.php/index/user/index [运行时间：0.039034s][吞吐率：25.62req/s] [内存消耗：2,933.68kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/index.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000826s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.002774s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.001353s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:36:08+08:00 ] ::1 ::1 GET /public/index.php/index/index/index
+[ log ] localhost/public/index.php/index/index/index [运行时间：0.037185s][吞吐率：26.89req/s] [内存消耗：2,900.41kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/index/index.html [ array (
+  0 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000767s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001553s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000763s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:36:11+08:00 ] ::1 ::1 GET /public/index.php/index/user/index
+[ log ] localhost/public/index.php/index/user/index [运行时间：0.053914s][吞吐率：18.55req/s] [内存消耗：2,938.13kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/index.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000748s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001544s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000701s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:36:14+08:00 ] ::1 ::1 GET /public/index.php/index/user/course
+[ log ] localhost/public/index.php/index/user/course [运行时间：0.057094s][吞吐率：17.52req/s] [内存消耗：2,938.13kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/index.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000616s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001560s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000714s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:36:36+08:00 ] ::1 ::1 GET /public/index.php/index/user/index
+[ log ] localhost/public/index.php/index/user/index [运行时间：0.037962s][吞吐率：26.34req/s] [内存消耗：2,938.26kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/index.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000635s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.003142s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.001341s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:36:37+08:00 ] ::1 ::1 GET /public/index.php/index/user/course
+[ log ] localhost/public/index.php/index/user/course [运行时间：0.043565s][吞吐率：22.95req/s] [内存消耗：2,938.36kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/index.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000538s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001440s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000719s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:36:39+08:00 ] ::1 ::1 GET /public/index.php/index/user/index
+[ log ] localhost/public/index.php/index/user/index [运行时间：0.036818s][吞吐率：27.16req/s] [内存消耗：2,938.26kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/index.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000545s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001274s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000645s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:36:49+08:00 ] ::1 ::1 GET /public/index.php/index/user/syllabus
+[ log ] localhost/public/index.php/index/user/syllabus [运行时间：8.130302s][吞吐率：0.12req/s] [内存消耗：2,978.32kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/syllabus.html [ array (
+  0 => 'syy',
+  1 => 'syllabus',
+  2 => 'menu',
+  3 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000654s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001449s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000737s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:37:04+08:00 ] ::1 ::1 POST /public/index.php/index/user/ajax_syllabus
+[ log ] localhost/public/index.php/index/user/ajax_syllabus [运行时间：6.008248s][吞吐率：0.17req/s] [内存消耗：2,109.64kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+  'year' => '9',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T16:37:16+08:00 ] ::1 ::1 POST /public/index.php/index/user/ajax_syllabus
+[ log ] localhost/public/index.php/index/user/ajax_syllabus [运行时间：7.449984s][吞吐率：0.13req/s] [内存消耗：2,125.68kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '7',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+  'year' => '14',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T16:38:02+08:00 ] ::1 ::1 GET /public/index.php/index/user/course
+[ log ] localhost/public/index.php/index/user/course [运行时间：0.062393s][吞吐率：16.03req/s] [内存消耗：2,938.20kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/index.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000753s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.002174s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.001182s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:40:27+08:00 ] ::1 ::1 GET /public/index.php/index/user/course
+[ log ] localhost/public/index.php/index/user/course [运行时间：0.059391s][吞吐率：16.84req/s] [内存消耗：3,129.56kb] [文件加载：54]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000592s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001877s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000789s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:40:28+08:00 ] ::1 ::1 GET /public/index.php/index/user/index
+[ log ] localhost/public/index.php/index/user/index [运行时间：0.039522s][吞吐率：25.30req/s] [内存消耗：2,938.26kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/index.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000484s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001303s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000735s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:40:29+08:00 ] ::1 ::1 GET /public/index.php/index/user/course
+[ log ] localhost/public/index.php/index/user/course [运行时间：0.053348s][吞吐率：18.74req/s] [内存消耗：2,938.33kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000589s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001618s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000781s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:45:28+08:00 ] ::1 ::1 GET /public/index.php/index/user/course
+[ log ] localhost/public/index.php/index/user/course [运行时间：0.049179s][吞吐率：20.33req/s] [内存消耗：3,129.89kb] [文件加载：54]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000508s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001323s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000614s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:56:31+08:00 ] ::1 ::1 GET /public/index.php/index/user/course
+[ log ] localhost/public/index.php/index/user/course [运行时间：0.059724s][吞吐率：16.74req/s] [内存消耗：3,129.84kb] [文件加载：54]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000698s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001775s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000848s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:56:35+08:00 ] ::1 ::1 GET /public/index.php/index/course/add
+[ log ] localhost/public/index.php/index/course/add [运行时间：0.056307s][吞吐率：17.76req/s] [内存消耗：3,106.72kb] [文件加载：54]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'course',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Course->add[ /var/www/html/application/index/controller/Course.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/course/add.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000560s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001652s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000744s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T16:56:44+08:00 ] ::1 ::1 GET /public/index.php/index/course/course
+[ log ] localhost/public/index.php/index/course/course [运行时间：0.032608s][吞吐率：30.67req/s] [内存消耗：2,125.03kb] [文件加载：47]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'course',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/course/add',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T16:56:58+08:00 ] ::1 ::1 GET /public/index.php/index/course/add
+[ log ] localhost/public/index.php/index/course/add [运行时间：0.040044s][吞吐率：24.97req/s] [内存消耗：2,915.19kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'course',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Course->add[ /var/www/html/application/index/controller/Course.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/course/add.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001293s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000584s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T17:13:06+08:00 ] ::1 ::1 GET /public/index.php/index/course/course
+[ log ] localhost/public/index.php/index/course/course [运行时间：0.035407s][吞吐率：28.24req/s] [内存消耗：2,125.03kb] [文件加载：47]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'course',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/course/add',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-18T17:13:07+08:00 ] ::1 ::1 GET /public/index.php/index/course/add
+[ log ] localhost/public/index.php/index/course/add [运行时间：0.042965s][吞吐率：23.27req/s] [内存消耗：2,915.19kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'course',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Course->add[ /var/www/html/application/index/controller/Course.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/course/add.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000810s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001724s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000596s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T17:13:10+08:00 ] ::1 ::1 GET /public/index.php/index/index/index
+[ log ] localhost/public/index.php/index/index/index [运行时间：0.048864s][吞吐率：20.47req/s] [内存消耗：2,900.41kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/course/add',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/index/index.html [ array (
+  0 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000562s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001332s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000625s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T17:13:13+08:00 ] ::1 ::1 GET /public/index.php/index/user/index
+[ log ] localhost/public/index.php/index/user/index [运行时间：0.045719s][吞吐率：21.87req/s] [内存消耗：2,938.26kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/index.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000516s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001589s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000885s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T17:13:14+08:00 ] ::1 ::1 GET /public/index.php/index/user/course
+[ log ] localhost/public/index.php/index/user/course [运行时间：0.051522s][吞吐率：19.41req/s] [内存消耗：3,130.66kb] [文件加载：54]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000539s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001289s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000654s ]
+
+---------------------------------------------------------------
+[ 2017-02-18T17:16:17+08:00 ] ::1 ::1 GET /public/index.php/index/user/course
+[ log ] localhost/public/index.php/index/user/course [运行时间：0.062727s][吞吐率：15.94req/s] [内存消耗：3,131.99kb] [文件加载：54]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=dfd71oea9totk79fdqfnn5kuj3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000678s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001766s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000809s ]
+
+---------------------------------------------------------------

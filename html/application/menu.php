@@ -1,0 +1,39 @@
+<?php
+return
+[
+    'menu'=>[
+        array
+        (
+            'url'=>'index',
+            'name'=>'基本信息',
+            'type'=>0,
+            'show'=>1,
+            'active'=>0
+        ),
+        array
+        (
+            'url'=>'syllabus',
+            'name'=>'课程表',
+            'type'=>0,
+            'show'=>1,
+            'active'=>0
+        ),
+        array
+        (
+            'url'=>'mycourse',
+            'name'=>'我的课程',
+            'type'=>0,
+            'show'=>1,
+            'active'=>0
+        ),
+        array
+        (
+            'url'=>'course',
+            'name'=>'课程',
+            'type'=>1,
+            'show'=>1,
+            'active'=>0
+        )
+    ]
+]
+?>

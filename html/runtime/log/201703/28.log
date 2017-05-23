@@ -1,0 +1,141 @@
+[ 2017-03-28T18:23:26+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php
+[ log ] www.yinglibi.cn/public/index.php [运行时间：0.028045s][吞吐率：35.66req/s] [内存消耗：2,181.07kb] [文件加载：46]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-28T18:23:27+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/login/login.html
+[ log ] www.yinglibi.cn/public/index.php/index/login/login.html [运行时间：0.018459s][吞吐率：54.17req/s] [内存消耗：2,060.64kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'PHPSESSID=f7gmi73knhs65calja7vmmeci7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-28T18:23:28+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/login/getverifyCode
+[ log ] www.yinglibi.cn/public/index.php/index/login/getverifyCode [运行时间：0.026800s][吞吐率：37.31req/s] [内存消耗：1,774.73kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'getverifyCode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'PHPSESSID=f7gmi73knhs65calja7vmmeci7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->getverifyCode[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-28T18:23:38+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/login/ajax_login
+[ log ] www.yinglibi.cn/public/index.php/index/login/ajax_login [运行时间：0.368420s][吞吐率：2.71req/s] [内存消耗：2,600.43kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'ajax_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '46',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'PHPSESSID=f7gmi73knhs65calja7vmmeci7',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '201411041',
+  'password' => '013094',
+  'yzm' => 'none',
+  'imgsrc' => '',
+)
+[ info ] [ RUN ] app\index\controller\Login->ajax_login[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.142256s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.099497s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.092893s ]
+
+---------------------------------------------------------------

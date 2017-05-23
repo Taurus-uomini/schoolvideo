@@ -1,0 +1,128 @@
+[ 2017-03-27T06:54:23+08:00 ] 47.91.151.224 207.46.13.241 GET /public/index.php
+[ log ] www.yinglibi.cn/public/index.php [运行时间：0.024776s][吞吐率：40.36req/s] [内存消耗：2,180.97kb] [文件加载：46]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'pragma' => 'no-cache',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'from' => 'bingbot(at)microsoft.com',
+  'host' => 'www.yinglibi.cn',
+  'user-agent' => 'msnbot-media/1.1 (+http://search.msn.com/msnbot.htm)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T06:54:27+08:00 ] 47.91.151.224 207.46.13.241 GET /public/index.php/index/login/login.html
+[ log ] www.yinglibi.cn/public/index.php/index/login/login.html [运行时间：0.023475s][吞吐率：42.60req/s] [内存消耗：2,060.01kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'pragma' => 'no-cache',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'from' => 'bingbot(at)microsoft.com',
+  'host' => 'www.yinglibi.cn',
+  'user-agent' => 'msnbot-media/1.1 (+http://search.msn.com/msnbot.htm)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T08:34:11+08:00 ] 47.91.151.224 207.46.13.186 GET /public/index.php/index/user/course
+[ log ] www.yinglibi.cn/public/index.php/index/user/course [运行时间：0.022291s][吞吐率：44.86req/s] [内存消耗：2,239.34kb] [文件加载：46]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'pragma' => 'no-cache',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'from' => 'bingbot(at)microsoft.com',
+  'host' => 'www.yinglibi.cn',
+  'user-agent' => 'msnbot-media/1.1 (+http://search.msn.com/msnbot.htm)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T08:34:13+08:00 ] 47.91.151.224 207.46.13.186 GET /public/index.php/index/login/login.html
+[ log ] www.yinglibi.cn/public/index.php/index/login/login.html [运行时间：0.019478s][吞吐率：51.34req/s] [内存消耗：2,060.01kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'pragma' => 'no-cache',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'from' => 'bingbot(at)microsoft.com',
+  'host' => 'www.yinglibi.cn',
+  'user-agent' => 'msnbot-media/1.1 (+http://search.msn.com/msnbot.htm)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

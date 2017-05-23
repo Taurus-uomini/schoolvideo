@@ -1,0 +1,7 @@
+<ul class="nav nav-pills nav-stacked " role="tablist">
+	{foreach $menu as $m} 
+		{if condition="$m.show eq 1"}
+			<li role="presentation"{if condition="$m.active eq 1"}class="active"{/if} ><a href="{$m.url}">{$m.name}</a></li>
+		{/if}
+	{/foreach}
+</ul>

@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>课程视频</title>
+<link rel="stylesheet" type="text/css" href="/public/css/course/index.css">
+<link rel="stylesheet" href="/public/css/index/bootstrap.min.css">
+<!--<link rel="stylesheet" href="/public/css/index/bootstrap-theme.min.css">-->
+<link rel="stylesheet" href="/public/css/index/flat-ui.min.css">
+<script src="/public/js/index/jquery-3.1.1.min.js"></script>
+<!--<script src="/public/js/index/bootstrap.min.js"></script>-->
+<script src="/public/js/index/flat-ui.min.js"></script>
+<script lang="javascript" type="text/javascript" src="/public/js/course/index.js"></script>
+</head>
+<body onload="load({$cid});">
+	<div class="header">
+		{include file="../application/index/view/include/header.html" uname="$userInfo.uname" /}
+	</div>
+	<div class="main">
+		<div class=center>
+			<div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object" src="" alt="image">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading"></h4>
+                    <div class="well">
+                        <p></p>
+                    </div>        
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">课程视频</h3>
+                </div>
+                <div class="panel-body">
+                    <div  id='video_info' class="row">
+                
+                    </div>
+                </div>
+            </div>
+            <div class="update_wait">
+                <img src="/public/img/loging.gif" alt="">
+            </div>
+		</div>
+	</div>
+	<div class="footer">
+		{include file="../application/index/view/include/footer.html" /}
+	</div>
+</body>
+</html>

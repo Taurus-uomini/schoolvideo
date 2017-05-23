@@ -1,0 +1,62 @@
+.main
+{
+    height: 460px;
+    margin-bottom: 10px;
+}
+.left
+{
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+.center
+{
+    float: left;
+    width: 80%;
+    padding: 0px 20px 0px 20px;
+    height: 100%;
+    overflow: scroll;
+}
+.footer
+{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+}
+.update_wait
+{
+  z-index: 100000;
+  background-color: rgba(1,0,0,0.5);
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  display: none;
+}
+.update_wait img
+{
+    width: 60px;
+    margin: 25% 50%;
+}
+#course_img
+{
+    width:0px;
+	height:0px;
+}
+.leftinput
+{
+    margin-top: 10px!important;
+    width: 60%!important;
+}
+#course_imgsrc
+{
+    float: right;
+}
+.caption #introduce
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

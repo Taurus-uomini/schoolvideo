@@ -1,0 +1,64 @@
+[ 2017-04-01T21:36:40+08:00 ] 47.91.151.224 40.77.167.60 GET /public/index.php
+[ log ] www.yinglibi.cn/public/index.php [运行时间：0.027631s][吞吐率：36.19req/s] [内存消耗：2,181.16kb] [文件加载：46]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'pragma' => 'no-cache',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'from' => 'bingbot(at)microsoft.com',
+  'host' => 'www.yinglibi.cn',
+  'user-agent' => 'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T21:36:42+08:00 ] 47.91.151.224 40.77.167.60 GET /public/index.php/index/login/login.html
+[ log ] www.yinglibi.cn/public/index.php/index/login/login.html [运行时间：0.024497s][吞吐率：40.82req/s] [内存消耗：2,060.49kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'pragma' => 'no-cache',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'from' => 'bingbot(at)microsoft.com',
+  'host' => 'www.yinglibi.cn',
+  'user-agent' => 'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

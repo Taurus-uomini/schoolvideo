@@ -1,0 +1,692 @@
+[ 2017-02-02T10:55:32+08:00 ] ::1 ::1 GET /public/index.php/index/Index
+[ log ] localhost/public/index.php/index/Index [运行时间：0.363747s][吞吐率：2.75req/s] [内存消耗：2,153.55kb] [文件加载：46]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-02T10:55:32+08:00 ] ::1 ::1 GET /public/index.php/index/login/login.html
+[ log ] localhost/public/index.php/index/login/login.html [运行时间：0.065313s][吞吐率：15.31req/s] [内存消耗：2,034.23kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=hps2nv8f06815hcsstd0brsn34',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-02T10:55:33+08:00 ] ::1 ::1 POST /public/index.php/index/login/getverifyCode
+[ log ] localhost/public/index.php/index/login/getverifyCode [运行时间：0.373338s][吞吐率：2.68req/s] [内存消耗：1,745.58kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'getverifyCode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://localhost/public/index.php/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=hps2nv8f06815hcsstd0brsn34',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->getverifyCode[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-02T10:55:44+08:00 ] ::1 ::1 POST /public/index.php/index/login/ajax_login
+[ log ] localhost/public/index.php/index/login/ajax_login [运行时间：0.112521s][吞吐率：8.89req/s] [内存消耗：2,572.79kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'ajax_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '73',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/public/index.php/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=hps2nv8f06815hcsstd0brsn34',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '201411041',
+  'password' => '201411041',
+  'yzm' => 'none',
+  'imgsrc' => 'verifyCode1486004133.jpg',
+)
+[ info ] [ RUN ] app\index\controller\Login->ajax_login[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000529s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.002148s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000484s ]
+
+---------------------------------------------------------------
+[ 2017-02-02T10:55:54+08:00 ] ::1 ::1 POST /public/index.php/index/login/ajax_login
+[ log ] localhost/public/index.php/index/login/ajax_login [运行时间：1.504003s][吞吐率：0.66req/s] [内存消耗：2,630.94kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'ajax_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '73',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/public/index.php/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=hps2nv8f06815hcsstd0brsn34',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '201411041',
+  'password' => '201411041',
+  'yzm' => '4650',
+  'imgsrc' => 'verifyCode1486004133.jpg',
+)
+[ info ] [ RUN ] app\index\controller\Login->ajax_login[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000803s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `faculty` [ RunTime:0.001965s ]
+[ sql ] [ SQL ] SELECT * FROM `faculty` WHERE  `name` = '计算机工程学院' LIMIT 1    [ RunTime:0.000683s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001112s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] INSERT INTO `faculty` (`name`) VALUES ('计算机工程学院')   [ RunTime:0.031408s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001163s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `specialty` [ RunTime:0.001832s ]
+[ sql ] [ SQL ] SELECT * FROM `specialty` WHERE  `name` = '计算机科学与技术'  AND `fid` = 1 LIMIT 1     [ RunTime:0.012014s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001131s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] INSERT INTO `specialty` (`name` , `fid`) VALUES ('计算机科学与技术' , 1)    [ RunTime:0.037668s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001350s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmis` [ RunTime:0.002270s ]
+[ sql ] [ SQL ] INSERT INTO `cmis` (`spid` , `start_school` , `attend_school_year` , `class` , `grade` , `is_inschool` , `test_number`) VALUES (1 , '2014' , 4 , '14计算机2班' , '三年级' , 1 , '14330654159167')         [ RunTime:0.028588s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000826s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.002378s ]
+[ sql ] [ SQL ] INSERT INTO `users` (`uid` , `password` , `name` , `sex` , `nation` , `political_status` , `birthday` , `id_card` , `cmid`) VALUES ('201411041' , 'ba53ac25a2d11c2eb49ac8d37fe88340' , '魏煜宸' , 0 , '汉族' , '共青团员' , '1994-05-01' , '340321199405013094' , 1)           [ RunTime:0.039714s ]
+
+---------------------------------------------------------------
+[ 2017-02-02T10:55:56+08:00 ] ::1 ::1 GET /public/index.php/index/login/undefined
+[ log ] localhost/public/index.php/index/login/undefined [运行时间：0.069069s][吞吐率：14.48req/s] [内存消耗：1,784.51kb] [文件加载：40]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'undefined',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=hps2nv8f06815hcsstd0brsn34',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-02T11:00:14+08:00 ] ::1 ::1 GET /public/index.php/index/Index
+[ log ] localhost/public/index.php/index/Index [运行时间：0.024036s][吞吐率：41.60req/s] [内存消耗：2,153.52kb] [文件加载：46]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-02T11:00:14+08:00 ] ::1 ::1 GET /public/index.php/index/login/login.html
+[ log ] localhost/public/index.php/index/login/login.html [运行时间：0.021122s][吞吐率：47.34req/s] [内存消耗：2,034.23kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=rt53gjl9caig0qnv95uu9nmvm1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-02T11:00:14+08:00 ] ::1 ::1 POST /public/index.php/index/login/getverifyCode
+[ log ] localhost/public/index.php/index/login/getverifyCode [运行时间：0.349098s][吞吐率：2.86req/s] [内存消耗：1,745.58kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'getverifyCode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://localhost/public/index.php/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=rt53gjl9caig0qnv95uu9nmvm1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->getverifyCode[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-02T11:00:23+08:00 ] ::1 ::1 POST /public/index.php/index/login/ajax_login
+[ log ] localhost/public/index.php/index/login/ajax_login [运行时间：0.036162s][吞吐率：27.65req/s] [内存消耗：2,572.79kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'ajax_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '73',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/public/index.php/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=rt53gjl9caig0qnv95uu9nmvm1',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '201411041',
+  'password' => '201411041',
+  'yzm' => 'none',
+  'imgsrc' => 'verifyCode1486004414.jpg',
+)
+[ info ] [ RUN ] app\index\controller\Login->ajax_login[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000522s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001472s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000420s ]
+
+---------------------------------------------------------------
+[ 2017-02-02T11:00:32+08:00 ] ::1 ::1 POST /public/index.php/index/login/ajax_login
+[ log ] localhost/public/index.php/index/login/ajax_login [运行时间：0.478997s][吞吐率：2.09req/s] [内存消耗：2,630.94kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'ajax_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '73',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/public/index.php/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=rt53gjl9caig0qnv95uu9nmvm1',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '201411041',
+  'password' => '201411041',
+  'yzm' => '6262',
+  'imgsrc' => 'verifyCode1486004414.jpg',
+)
+[ info ] [ RUN ] app\index\controller\Login->ajax_login[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000527s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `faculty` [ RunTime:0.001103s ]
+[ sql ] [ SQL ] SELECT * FROM `faculty` WHERE  `name` = '计算机工程学院' LIMIT 1    [ RunTime:0.000341s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000402s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] INSERT INTO `faculty` (`name`) VALUES ('计算机工程学院')   [ RunTime:0.044602s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000416s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `specialty` [ RunTime:0.001122s ]
+[ sql ] [ SQL ] SELECT * FROM `specialty` WHERE  `name` = '计算机科学与技术'  AND `fid` = 1 LIMIT 1     [ RunTime:0.000432s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000341s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] INSERT INTO `specialty` (`name` , `fid`) VALUES ('计算机科学与技术' , 1)    [ RunTime:0.019200s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000497s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmis` [ RunTime:0.001180s ]
+[ sql ] [ SQL ] INSERT INTO `cmis` (`spid` , `start_school` , `attend_school_year` , `class` , `grade` , `is_inschool` , `test_number`) VALUES (1 , '2014' , 4 , '14计算机2班' , '三年级' , 1 , '14330654159167')         [ RunTime:0.019606s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000506s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001697s ]
+[ sql ] [ SQL ] INSERT INTO `users` (`uid` , `password` , `name` , `sex` , `nation` , `political_status` , `birthday` , `id_card` , `cmid`) VALUES ('201411041' , 'ba53ac25a2d11c2eb49ac8d37fe88340' , '魏煜宸' , 0 , '汉族' , '共青团员' , '1994-05-01' , '340321199405013094' , 1)           [ RunTime:0.018591s ]
+
+---------------------------------------------------------------
+[ 2017-02-02T11:00:33+08:00 ] ::1 ::1 GET /public/index.php/index/login/undefined
+[ log ] localhost/public/index.php/index/login/undefined [运行时间：0.026674s][吞吐率：37.49req/s] [内存消耗：1,784.51kb] [文件加载：40]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'undefined',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=rt53gjl9caig0qnv95uu9nmvm1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-02T11:03:23+08:00 ] ::1 ::1 GET /public/index.php/index/Index
+[ log ] localhost/public/index.php/index/Index [运行时间：0.024656s][吞吐率：40.56req/s] [内存消耗：2,153.52kb] [文件加载：46]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-02T11:03:23+08:00 ] ::1 ::1 GET /public/index.php/index/login/login.html
+[ log ] localhost/public/index.php/index/login/login.html [运行时间：0.021524s][吞吐率：46.46req/s] [内存消耗：2,035.23kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=u2sd0b0hvudnhi5pp19v2tq7p7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-02T11:03:24+08:00 ] ::1 ::1 POST /public/index.php/index/login/getverifyCode
+[ log ] localhost/public/index.php/index/login/getverifyCode [运行时间：0.410614s][吞吐率：2.44req/s] [内存消耗：1,746.64kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'getverifyCode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://localhost/public/index.php/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=u2sd0b0hvudnhi5pp19v2tq7p7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->getverifyCode[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-02T11:03:31+08:00 ] ::1 ::1 POST /public/index.php/index/login/ajax_login
+[ log ] localhost/public/index.php/index/login/ajax_login [运行时间：0.033915s][吞吐率：29.49req/s] [内存消耗：2,573.80kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'ajax_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '73',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/public/index.php/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=u2sd0b0hvudnhi5pp19v2tq7p7',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '201411041',
+  'password' => '201411041',
+  'yzm' => 'none',
+  'imgsrc' => 'verifyCode1486004604.jpg',
+)
+[ info ] [ RUN ] app\index\controller\Login->ajax_login[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000431s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001217s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.000440s ]
+
+---------------------------------------------------------------
+[ 2017-02-02T11:03:38+08:00 ] ::1 ::1 POST /public/index.php/index/login/ajax_login
+[ log ] localhost/public/index.php/index/login/ajax_login [运行时间：0.616682s][吞吐率：1.62req/s] [内存消耗：2,632.24kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'ajax_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '73',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/public/index.php/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=u2sd0b0hvudnhi5pp19v2tq7p7',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '201411041',
+  'password' => '201411041',
+  'yzm' => '3131',
+  'imgsrc' => 'verifyCode1486004604.jpg',
+)
+[ info ] [ RUN ] app\index\controller\Login->ajax_login[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000542s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `faculty` [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SELECT * FROM `faculty` WHERE  `name` = '计算机工程学院' LIMIT 1    [ RunTime:0.000389s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000413s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] INSERT INTO `faculty` (`name`) VALUES ('计算机工程学院')   [ RunTime:0.042276s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000540s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `specialty` [ RunTime:0.001255s ]
+[ sql ] [ SQL ] SELECT * FROM `specialty` WHERE  `name` = '计算机科学与技术'  AND `fid` = 1 LIMIT 1     [ RunTime:0.000526s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000517s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] INSERT INTO `specialty` (`name` , `fid`) VALUES ('计算机科学与技术' , 1)    [ RunTime:0.029584s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000484s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmis` [ RunTime:0.001094s ]
+[ sql ] [ SQL ] INSERT INTO `cmis` (`spid` , `start_school` , `attend_school_year` , `class` , `grade` , `is_inschool` , `test_number`) VALUES (1 , '2014' , 4 , '14计算机2班' , '三年级' , 1 , '14330654159167')         [ RunTime:0.031058s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000399s ] mysql:dbname=think;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001132s ]
+[ sql ] [ SQL ] INSERT INTO `users` (`uid` , `password` , `name` , `sex` , `nation` , `political_status` , `birthday` , `id_card` , `cmid`) VALUES ('201411041' , 'ba53ac25a2d11c2eb49ac8d37fe88340' , '魏煜宸' , 0 , '汉族' , '共青团员' , '1994-05-01' , '340321199405013094' , 2)           [ RunTime:0.031032s ]
+
+---------------------------------------------------------------
+[ 2017-02-02T11:03:39+08:00 ] ::1 ::1 GET /public/index.php/index/Index
+[ log ] localhost/public/index.php/index/Index [运行时间：0.027472s][吞吐率：36.40req/s] [内存消耗：2,051.89kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/public/index.php/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'pgv_pvi=9720204288; PHPSESSID=u2sd0b0hvudnhi5pp19v2tq7p7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/html/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

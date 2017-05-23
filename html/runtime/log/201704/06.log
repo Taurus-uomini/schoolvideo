@@ -1,0 +1,4229 @@
+[ 2017-04-06T16:35:32+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/syllabus
+[ log ] www.yinglibi.cn/public/index.php/index/user/syllabus [运行时间：0.023594s][吞吐率：42.38req/s] [内存消耗：2,239.65kb] [文件加载：46]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-06T16:35:32+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/login/login.html
+[ log ] www.yinglibi.cn/public/index.php/index/login/login.html [运行时间：0.019493s][吞吐率：51.30req/s] [内存消耗：2,062.70kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-06T16:35:33+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/login/getverifyCode
+[ log ] www.yinglibi.cn/public/index.php/index/login/getverifyCode [运行时间：0.891397s][吞吐率：1.12req/s] [内存消耗：1,776.81kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'getverifyCode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->getverifyCode[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-06T16:35:53+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/login/ajax_login
+[ log ] www.yinglibi.cn/public/index.php/index/login/ajax_login [运行时间：2.520188s][吞吐率：0.40req/s] [内存消耗：2,671.10kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'ajax_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '101',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '201411041',
+  'password' => '201411041',
+  'yzm' => '9747',
+  'imgsrc' => 'yzm/verifyCodea92e3ccc815d69e80bd96b888e3c379d.jpg',
+)
+[ info ] [ RUN ] app\index\controller\Login->ajax_login[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.151281s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `faculty` [ RunTime:0.100161s ]
+[ sql ] [ SQL ] SELECT * FROM `faculty` WHERE  `fname` = '计算机工程学院' LIMIT 1    [ RunTime:0.099109s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.148088s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `specialty` [ RunTime:0.099354s ]
+[ sql ] [ SQL ] SELECT * FROM `specialty` WHERE  `spname` = '计算机科学与技术'  AND `fid` = 2 LIMIT 1     [ RunTime:0.098715s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.148664s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmis` [ RunTime:0.099555s ]
+[ sql ] [ SQL ] SELECT * FROM `cmis` WHERE  `spid` = 2  AND `test_number` = '14330654159167' LIMIT 1     [ RunTime:0.098868s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.158908s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] UPDATE `cmis`  SET `spid`=2,`start_school`='2014',`attend_school_year`=4,`class`='14计算机2班',`grade`='四年级',`is_inschool`=1,`test_number`='14330654159167'  WHERE  `spid` = 2  AND `test_number` = '14330654159167'            [ RunTime:0.105174s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.158838s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.106301s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105628s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.139764s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] UPDATE `users`  SET `uid`='201411041',`password`='ba53ac25a2d11c2eb49ac8d37fe88340',`uname`='魏煜宸',`sex`=0,`nation`='汉族',`political_status`='共青团员',`birthday`='1994-05-01',`id_card`='340321199405013094',`cmid`=3  WHERE  `uid` = '201411041'             [ RunTime:0.092632s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T16:35:55+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/syllabus
+[ log ] www.yinglibi.cn/public/index.php/index/user/syllabus [运行时间：0.868536s][吞吐率：1.15req/s] [内存消耗：3,032.69kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/syllabus.html [ array (
+  0 => 'syy',
+  1 => 'syllabus',
+  2 => 'menu',
+  3 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149483s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.099764s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099328s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T16:36:06+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_syllabus
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_syllabus [运行时间：0.512670s][吞吐率：1.95req/s] [内存消耗：2,177.55kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '7',
+  'accept' => '*/*',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'year' => '14',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-06T16:36:12+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/index
+[ log ] www.yinglibi.cn/public/index.php/index/user/index [运行时间：0.375931s][吞吐率：2.66req/s] [内存消耗：2,989.81kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/index.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149319s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.100112s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099242s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T16:36:15+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/course
+[ log ] www.yinglibi.cn/public/index.php/index/user/course [运行时间：0.376113s][吞吐率：2.66req/s] [内存消耗：2,990.01kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.148544s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.099796s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.098847s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T16:36:16+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchcourse [运行时间：0.632972s][吞吐率：1.58req/s] [内存消耗：2,992.58kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchcourse[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.160142s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.106159s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105712s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.107772s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` `cd` RIGHT JOIN `course` `c` ON `c`.`cid`=`cd`.`cid` WHERE  `id` = '2'  [ RunTime:0.108046s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T16:37:10+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchcourse [运行时间：0.775734s][吞吐率：1.29req/s] [内存消耗：2,995.15kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchcourse[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149444s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.099307s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099632s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.099428s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `id` = 2  AND `cid` = 1 LIMIT 1     [ RunTime:0.098774s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.099247s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` WHERE  `cid` = 1 LIMIT 1    [ RunTime:0.098630s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T16:37:12+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/course_detail?cid=1
+[ log ] www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1 [运行时间：0.361267s][吞吐率：2.77req/s] [内存消耗：2,991.09kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course_detail[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course_detail.html [ array (
+  0 => 'menu',
+  1 => 'cid',
+  2 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.139420s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.093393s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.092679s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T16:37:14+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchvideo
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchvideo [运行时间：0.389666s][吞吐率：2.57req/s] [内存消耗：2,986.03kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchvideo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'vid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchvideo[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.141706s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.094781s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `cid` = 1   [ RunTime:0.093103s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T16:37:14+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchcourse [运行时间：1.142398s][吞吐率：0.88req/s] [内存消耗：2,995.17kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchcourse[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149925s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.099846s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099510s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.099693s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `id` = 2  AND `cid` = 1 LIMIT 1     [ RunTime:0.099051s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.100057s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` WHERE  `cid` = 1 LIMIT 1    [ RunTime:0.099117s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T16:37:22+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchvideo
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchvideo [运行时间：0.360132s][吞吐率：2.78req/s] [内存消耗：2,986.66kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchvideo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'vid' => '8',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchvideo[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.139735s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.093348s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `cid` = 1  AND `vid` = 8 LIMIT 1     [ RunTime:0.092402s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T16:37:55+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/index/index
+[ log ] www.yinglibi.cn/public/index.php/index/index/index [运行时间：0.399235s][吞吐率：2.50req/s] [内存消耗：2,919.64kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/index/index.html [ array (
+  0 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.158292s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.106628s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105628s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T16:37:56+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/index/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/index/ajax_searchcourse [运行时间：0.782185s][吞吐率：1.28req/s] [内存消耗：2,927.78kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->ajax_searchcourse[ /var/www/html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149187s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.100488s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099933s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `selective_course` [ RunTime:0.102373s ]
+[ sql ] [ SQL ] SELECT * FROM `selective_course` WHERE  `id` = 2   [ RunTime:0.099761s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.099824s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` `cd` RIGHT JOIN `course` `c` ON `c`.`cid`=`cd`.`cid`  [ RunTime:0.099239s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T16:37:59+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/course/show?cid=1
+[ log ] www.yinglibi.cn/public/index.php/index/course/show?cid=1 [运行时间：0.377658s][吞吐率：2.65req/s] [内存消耗：2,941.81kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'course',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Course->show[ /var/www/html/application/index/controller/Course.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/course/show.html [ array (
+  0 => 'userInfo',
+  1 => 'cid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149617s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.099710s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.098937s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T16:38:00+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/course/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/course/ajax_searchcourse [运行时间：0.916133s][吞吐率：1.09req/s] [内存消耗：2,951.71kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'course',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/course/show?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Course->ajax_searchcourse[ /var/www/html/application/index/controller/Course.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.139541s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.093760s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.093228s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `selective_course` [ RunTime:0.093571s ]
+[ sql ] [ SQL ] SELECT * FROM `selective_course` WHERE  `id` = 2   [ RunTime:0.092671s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.093689s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `cid` = 1 LIMIT 1    [ RunTime:0.092700s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.094176s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` WHERE  `cid` = 1 LIMIT 1    [ RunTime:0.092790s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T16:38:01+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/course/ajax_searchvideo
+[ log ] www.yinglibi.cn/public/index.php/index/course/ajax_searchvideo [运行时间：0.727185s][吞吐率：1.38req/s] [内存消耗：2,950.83kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'course',
+    2 => 'ajax_searchvideo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/course/show?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'vid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Course->ajax_searchvideo[ /var/www/html/application/index/controller/Course.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.138888s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.093105s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.092504s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `selective_course` [ RunTime:0.093338s ]
+[ sql ] [ SQL ] SELECT * FROM `selective_course` WHERE  `id` = 2   [ RunTime:0.092171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.093211s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `cid` = 1   [ RunTime:0.092195s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T16:38:09+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/index
+[ log ] www.yinglibi.cn/public/index.php/index/user/index [运行时间：0.401524s][吞吐率：2.49req/s] [内存消耗：2,989.86kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/course/show?cid=1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/index.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.159802s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.106221s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105352s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T16:38:12+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/syllabus
+[ log ] www.yinglibi.cn/public/index.php/index/user/syllabus [运行时间：0.929018s][吞吐率：1.08req/s] [内存消耗：3,032.77kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/syllabus.html [ array (
+  0 => 'syy',
+  1 => 'syllabus',
+  2 => 'menu',
+  3 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.159997s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.106314s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105777s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T16:38:13+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/course
+[ log ] www.yinglibi.cn/public/index.php/index/user/course [运行时间：0.358371s][吞吐率：2.79req/s] [内存消耗：2,989.92kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.139232s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.093634s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.092928s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T16:38:14+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchcourse [运行时间：0.609454s][吞吐率：1.64req/s] [内存消耗：2,992.58kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchcourse[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.158090s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.106233s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105962s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.105989s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` `cd` RIGHT JOIN `course` `c` ON `c`.`cid`=`cd`.`cid` WHERE  `id` = '2'  [ RunTime:0.105352s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T16:40:03+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/course_detail?cid=1
+[ log ] www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1 [运行时间：0.409375s][吞吐率：2.44req/s] [内存消耗：2,991.09kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course_detail[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course_detail.html [ array (
+  0 => 'menu',
+  1 => 'cid',
+  2 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.160333s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.112985s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.106265s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T16:40:04+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchvideo
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchvideo [运行时间：0.401357s][吞吐率：2.49req/s] [内存消耗：2,986.03kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchvideo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'vid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchvideo[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.160127s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.106748s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `cid` = 1   [ RunTime:0.106046s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T16:40:04+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchcourse [运行时间：1.091366s][吞吐率：0.92req/s] [内存消耗：2,995.17kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchcourse[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.148267s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.099447s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099044s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.099544s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `id` = 2  AND `cid` = 1 LIMIT 1     [ RunTime:0.098639s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.099681s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` WHERE  `cid` = 1 LIMIT 1    [ RunTime:0.098515s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:52:41+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchvideo
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchvideo [运行时间：0.374846s][吞吐率：2.67req/s] [内存消耗：2,986.66kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchvideo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'vid' => '8',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchvideo[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.148254s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.099577s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `cid` = 1  AND `vid` = 8 LIMIT 1     [ RunTime:0.098548s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:54:48+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/course
+[ log ] www.yinglibi.cn/public/index.php/index/user/course [运行时间：0.399826s][吞吐率：2.50req/s] [内存消耗：2,989.75kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.158175s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.105982s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105589s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:54:48+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchcourse [运行时间：0.578541s][吞吐率：1.73req/s] [内存消耗：2,992.58kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchcourse[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149579s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.100334s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099759s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.100064s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` `cd` RIGHT JOIN `course` `c` ON `c`.`cid`=`cd`.`cid` WHERE  `id` = '2'  [ RunTime:0.099691s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:54:50+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/course_detail?cid=1
+[ log ] www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1 [运行时间：0.402590s][吞吐率：2.48req/s] [内存消耗：2,991.09kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course_detail[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course_detail.html [ array (
+  0 => 'menu',
+  1 => 'cid',
+  2 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.158864s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.106283s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.106486s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:54:51+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchvideo
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchvideo [运行时间：0.376305s][吞吐率：2.66req/s] [内存消耗：2,986.03kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchvideo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'vid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchvideo[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.150803s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.099418s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `cid` = 1   [ RunTime:0.098844s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:54:52+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchcourse [运行时间：1.071026s][吞吐率：0.93req/s] [内存消耗：2,995.17kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchcourse[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.151011s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.100255s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099660s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.100039s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `id` = 2  AND `cid` = 1 LIMIT 1     [ RunTime:0.099514s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.099991s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` WHERE  `cid` = 1 LIMIT 1    [ RunTime:0.099486s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:55:09+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/index/index
+[ log ] www.yinglibi.cn/public/index.php/index/index/index [运行时间：0.398416s][吞吐率：2.51req/s] [内存消耗：2,919.64kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/index/index.html [ array (
+  0 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.158287s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.106039s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105477s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:55:10+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/index/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/index/ajax_searchcourse [运行时间：0.778397s][吞吐率：1.28req/s] [内存消耗：2,927.78kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->ajax_searchcourse[ /var/www/html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.148101s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.099837s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.100941s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `selective_course` [ RunTime:0.099087s ]
+[ sql ] [ SQL ] SELECT * FROM `selective_course` WHERE  `id` = 2   [ RunTime:0.098353s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.099189s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` `cd` RIGHT JOIN `course` `c` ON `c`.`cid`=`cd`.`cid`  [ RunTime:0.098569s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:55:14+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/course/show?cid=1
+[ log ] www.yinglibi.cn/public/index.php/index/course/show?cid=1 [运行时间：0.389191s][吞吐率：2.57req/s] [内存消耗：2,941.81kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'course',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Course->show[ /var/www/html/application/index/controller/Course.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/course/show.html [ array (
+  0 => 'userInfo',
+  1 => 'cid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.148920s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.100064s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099728s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:55:15+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/course/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/course/ajax_searchcourse [运行时间：0.985277s][吞吐率：1.01req/s] [内存消耗：2,951.71kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'course',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/course/show?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Course->ajax_searchcourse[ /var/www/html/application/index/controller/Course.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149657s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.099868s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `selective_course` [ RunTime:0.099419s ]
+[ sql ] [ SQL ] SELECT * FROM `selective_course` WHERE  `id` = 2   [ RunTime:0.099153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.099799s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `cid` = 1 LIMIT 1    [ RunTime:0.098704s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.099570s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` WHERE  `cid` = 1 LIMIT 1    [ RunTime:0.098934s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:55:16+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/course/ajax_searchvideo
+[ log ] www.yinglibi.cn/public/index.php/index/course/ajax_searchvideo [运行时间：0.783811s][吞吐率：1.28req/s] [内存消耗：2,950.83kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'course',
+    2 => 'ajax_searchvideo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/course/show?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'vid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Course->ajax_searchvideo[ /var/www/html/application/index/controller/Course.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149249s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.103527s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `selective_course` [ RunTime:0.100093s ]
+[ sql ] [ SQL ] SELECT * FROM `selective_course` WHERE  `id` = 2   [ RunTime:0.099218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.100173s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `cid` = 1   [ RunTime:0.101127s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:55:20+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/course/watch_video?cid=1&vid=8
+[ log ] www.yinglibi.cn/public/index.php/index/course/watch_video?cid=1&vid=8 [运行时间：0.357166s][吞吐率：2.80req/s] [内存消耗：2,942.56kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'course',
+    2 => 'watch_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/course/show?cid=1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'vid' => '8',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Course->watch_video[ /var/www/html/application/index/controller/Course.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/course/watch_video.html [ array (
+  0 => 'userInfo',
+  1 => 'cid',
+  2 => 'vid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.139846s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.093818s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.094096s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:55:22+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/course/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/course/ajax_searchcourse [运行时间：0.916000s][吞吐率：1.09req/s] [内存消耗：2,951.85kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'course',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/course/watch_video?cid=1&vid=8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Course->ajax_searchcourse[ /var/www/html/application/index/controller/Course.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.139148s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.093488s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.092950s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `selective_course` [ RunTime:0.093234s ]
+[ sql ] [ SQL ] SELECT * FROM `selective_course` WHERE  `id` = 2   [ RunTime:0.092591s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.093271s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `cid` = 1 LIMIT 1    [ RunTime:0.093717s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.093431s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` WHERE  `cid` = 1 LIMIT 1    [ RunTime:0.092486s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:55:23+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/course/ajax_searchvideo
+[ log ] www.yinglibi.cn/public/index.php/index/course/ajax_searchvideo [运行时间：0.821339s][吞吐率：1.22req/s] [内存消耗：2,951.43kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'course',
+    2 => 'ajax_searchvideo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/course/watch_video?cid=1&vid=8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'vid' => '8',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Course->ajax_searchvideo[ /var/www/html/application/index/controller/Course.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.138860s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.093120s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.092726s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `selective_course` [ RunTime:0.095000s ]
+[ sql ] [ SQL ] SELECT * FROM `selective_course` WHERE  `id` = 2   [ RunTime:0.092526s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.093401s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `cid` = 1   [ RunTime:0.092374s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `cid` = 1  AND `vid` = 8 LIMIT 1     [ RunTime:0.092532s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:56:30+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/index/index
+[ log ] www.yinglibi.cn/public/index.php/index/index/index [运行时间：0.374124s][吞吐率：2.67req/s] [内存消耗：2,920.17kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/course/watch_video?cid=1&vid=8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/index/index.html [ array (
+  0 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.148403s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.099075s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.098837s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:56:31+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/index/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/index/ajax_searchcourse [运行时间：0.774666s][吞吐率：1.29req/s] [内存消耗：2,927.78kb] [文件加载：51]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->ajax_searchcourse[ /var/www/html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.148262s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.099436s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099034s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `selective_course` [ RunTime:0.099453s ]
+[ sql ] [ SQL ] SELECT * FROM `selective_course` WHERE  `id` = 2   [ RunTime:0.098888s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.100224s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` `cd` RIGHT JOIN `course` `c` ON `c`.`cid`=`cd`.`cid`  [ RunTime:0.098872s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:56:34+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/index
+[ log ] www.yinglibi.cn/public/index.php/index/user/index [运行时间：0.383049s][吞吐率：2.61req/s] [内存消耗：2,989.95kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/index.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149559s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.100498s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.100087s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:56:37+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/syllabus
+[ log ] www.yinglibi.cn/public/index.php/index/user/syllabus [运行时间：0.696222s][吞吐率：1.44req/s] [内存消耗：3,083.77kb] [文件加载：54]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.159030s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.106769s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.106173s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:56:37+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/login/logout.html
+[ log ] www.yinglibi.cn/public/index.php/index/login/logout.html [运行时间：0.018999s][吞吐率：52.63req/s] [内存消耗：2,065.23kb] [文件加载：43]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->logout[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-06T20:56:38+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/login/getverifyCode
+[ log ] www.yinglibi.cn/public/index.php/index/login/getverifyCode [运行时间：0.475033s][吞吐率：2.11req/s] [内存消耗：1,776.81kb] [文件加载：38]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'getverifyCode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/login/logout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->getverifyCode[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-06T20:56:56+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/login/ajax_login
+[ log ] www.yinglibi.cn/public/index.php/index/login/ajax_login [运行时间：2.394646s][吞吐率：0.42req/s] [内存消耗：2,671.10kb] [文件加载：45]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'ajax_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '101',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/login/logout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '201411041',
+  'password' => '201411041',
+  'yzm' => '9124',
+  'imgsrc' => 'yzm/verifyCode3b39df2b37ad8e5008ac29556b425942.jpg',
+)
+[ info ] [ RUN ] app\index\controller\Login->ajax_login[ /var/www/html/application/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.139289s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `faculty` [ RunTime:0.093519s ]
+[ sql ] [ SQL ] SELECT * FROM `faculty` WHERE  `fname` = '计算机工程学院' LIMIT 1    [ RunTime:0.093119s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.139493s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `specialty` [ RunTime:0.093740s ]
+[ sql ] [ SQL ] SELECT * FROM `specialty` WHERE  `spname` = '计算机科学与技术'  AND `fid` = 2 LIMIT 1     [ RunTime:0.092827s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.158815s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmis` [ RunTime:0.106436s ]
+[ sql ] [ SQL ] SELECT * FROM `cmis` WHERE  `spid` = 2  AND `test_number` = '14330654159167' LIMIT 1     [ RunTime:0.105532s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.158219s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] UPDATE `cmis`  SET `spid`=2,`start_school`='2014',`attend_school_year`=4,`class`='14计算机2班',`grade`='四年级',`is_inschool`=1,`test_number`='14330654159167'  WHERE  `spid` = 2  AND `test_number` = '14330654159167'            [ RunTime:0.105491s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.158635s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.105690s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105709s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.147498s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] UPDATE `users`  SET `uid`='201411041',`password`='ba53ac25a2d11c2eb49ac8d37fe88340',`uname`='魏煜宸',`sex`=0,`nation`='汉族',`political_status`='共青团员',`birthday`='1994-05-01',`id_card`='340321199405013094',`cmid`=3  WHERE  `uid` = '201411041'             [ RunTime:0.098419s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:56:58+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/syllabus
+[ log ] www.yinglibi.cn/public/index.php/index/user/syllabus [运行时间：0.937491s][吞吐率：1.07req/s] [内存消耗：3,032.69kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'syllabus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/login/logout.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->syllabus[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/syllabus.html [ array (
+  0 => 'syy',
+  1 => 'syllabus',
+  2 => 'menu',
+  3 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149232s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.100420s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099764s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:57:01+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/course
+[ log ] www.yinglibi.cn/public/index.php/index/user/course [运行时间：0.380203s][吞吐率：2.63req/s] [内存消耗：2,989.92kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/syllabus',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.148460s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.100297s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099106s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:57:02+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchcourse [运行时间：0.573781s][吞吐率：1.74req/s] [内存消耗：2,992.58kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchcourse[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.147883s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.099119s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.098522s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.098747s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` `cd` RIGHT JOIN `course` `c` ON `c`.`cid`=`cd`.`cid` WHERE  `id` = '2'  [ RunTime:0.098128s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:57:04+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/course_detail?cid=1
+[ log ] www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1 [运行时间：0.400216s][吞吐率：2.50req/s] [内存消耗：2,991.09kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course_detail[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course_detail.html [ array (
+  0 => 'menu',
+  1 => 'cid',
+  2 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.157751s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.107199s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105362s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:57:04+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchvideo
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchvideo [运行时间：0.395299s][吞吐率：2.53req/s] [内存消耗：2,986.03kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchvideo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'vid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchvideo[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.157461s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.105525s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `cid` = 1   [ RunTime:0.105255s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:57:05+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchcourse [运行时间：1.085011s][吞吐率：0.92req/s] [内存消耗：2,995.17kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchcourse[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149240s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.099550s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.101787s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.099355s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `id` = 2  AND `cid` = 1 LIMIT 1     [ RunTime:0.098679s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.099302s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` WHERE  `cid` = 1 LIMIT 1    [ RunTime:0.098983s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:57:14+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/course
+[ log ] www.yinglibi.cn/public/index.php/index/user/course [运行时间：0.400632s][吞吐率：2.50req/s] [内存消耗：2,989.75kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.159889s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.106223s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.106711s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:57:15+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchcourse [运行时间：0.576651s][吞吐率：1.73req/s] [内存消耗：2,992.58kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchcourse[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.148413s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.099759s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099032s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.099363s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` `cd` RIGHT JOIN `course` `c` ON `c`.`cid`=`cd`.`cid` WHERE  `id` = '2'  [ RunTime:0.098618s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:57:16+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/course_detail?cid=11
+[ log ] www.yinglibi.cn/public/index.php/index/user/course_detail?cid=11 [运行时间：0.354813s][吞吐率：2.82req/s] [内存消耗：2,991.09kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '11',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course_detail[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course_detail.html [ array (
+  0 => 'menu',
+  1 => 'cid',
+  2 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.139788s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.093211s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.092711s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:57:17+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchvideo
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchvideo [运行时间：0.353019s][吞吐率：2.83req/s] [内存消耗：2,986.06kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchvideo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=11',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '11',
+  'vid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchvideo[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.138689s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.093239s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `cid` = 11   [ RunTime:0.092312s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:57:18+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchcourse [运行时间：1.039269s][吞吐率：0.96req/s] [内存消耗：2,995.13kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=11',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '11',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchcourse[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149113s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.099848s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099855s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.099627s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `id` = 2  AND `cid` = 11 LIMIT 1     [ RunTime:0.099041s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.099802s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` WHERE  `cid` = 11 LIMIT 1    [ RunTime:0.099162s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:57:19+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/course
+[ log ] www.yinglibi.cn/public/index.php/index/user/course [运行时间：0.401832s][吞吐率：2.49req/s] [内存消耗：2,989.75kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=11',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.158300s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.105831s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105375s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:57:20+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchcourse [运行时间：0.577143s][吞吐率：1.73req/s] [内存消耗：2,992.58kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchcourse[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149238s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.100018s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099877s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.099902s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` `cd` RIGHT JOIN `course` `c` ON `c`.`cid`=`cd`.`cid` WHERE  `id` = '2'  [ RunTime:0.099219s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:57:21+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/course_detail?cid=15
+[ log ] www.yinglibi.cn/public/index.php/index/user/course_detail?cid=15 [运行时间：0.398162s][吞吐率：2.51req/s] [内存消耗：2,991.09kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course_detail[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course_detail.html [ array (
+  0 => 'menu',
+  1 => 'cid',
+  2 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.157834s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.105648s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105059s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:57:22+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchcourse [运行时间：0.832149s][吞吐率：1.20req/s] [内存消耗：2,995.13kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=15',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchcourse[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.157962s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.105745s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.105544s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `id` = 2  AND `cid` = 15 LIMIT 1     [ RunTime:0.104865s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.105312s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` WHERE  `cid` = 15 LIMIT 1    [ RunTime:0.104918s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:57:22+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchvideo
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchvideo [运行时间：1.179809s][吞吐率：0.85req/s] [内存消耗：2,986.06kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchvideo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=15',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '15',
+  'vid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchvideo[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.139521s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.093511s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `cid` = 15   [ RunTime:0.092714s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:57:26+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/course
+[ log ] www.yinglibi.cn/public/index.php/index/user/course [运行时间：0.391540s][吞吐率：2.55req/s] [内存消耗：2,989.75kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=15',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course.html [ array (
+  0 => 'menu',
+  1 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149399s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.100140s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099578s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:57:27+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchcourse [运行时间：0.589746s][吞吐率：1.70req/s] [内存消耗：2,992.58kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchcourse[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.147930s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.099669s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.098825s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.099439s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` `cd` RIGHT JOIN `course` `c` ON `c`.`cid`=`cd`.`cid` WHERE  `id` = '2'  [ RunTime:0.098551s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:57:28+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/course_detail?cid=1
+[ log ] www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1 [运行时间：0.396787s][吞吐率：2.52req/s] [内存消耗：2,991.09kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course_detail[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course_detail.html [ array (
+  0 => 'menu',
+  1 => 'cid',
+  2 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.157480s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.105694s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105256s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:57:29+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchvideo
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchvideo [运行时间：0.375232s][吞吐率：2.67req/s] [内存消耗：2,986.03kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchvideo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'vid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchvideo[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149856s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.099621s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `cid` = 1   [ RunTime:0.099299s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T20:57:30+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchcourse [运行时间：1.051278s][吞吐率：0.95req/s] [内存消耗：2,995.17kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchcourse[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149753s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.100681s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099885s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.100106s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `id` = 2  AND `cid` = 1 LIMIT 1     [ RunTime:0.099552s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.100802s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` WHERE  `cid` = 1 LIMIT 1    [ RunTime:0.099563s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T21:05:15+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/course_detail?cid=1
+[ log ] www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1 [运行时间：0.398993s][吞吐率：2.51req/s] [内存消耗：2,991.38kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course_detail[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course_detail.html [ array (
+  0 => 'menu',
+  1 => 'cid',
+  2 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.158139s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.105856s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.106009s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T21:05:16+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchcourse [运行时间：0.829919s][吞吐率：1.20req/s] [内存消耗：2,995.17kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchcourse[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.159172s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.105835s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105023s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.105676s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `id` = 2  AND `cid` = 1 LIMIT 1     [ RunTime:0.104760s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.105609s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` WHERE  `cid` = 1 LIMIT 1    [ RunTime:0.104828s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T21:05:16+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchvideo
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchvideo [运行时间：1.219014s][吞吐率：0.82req/s] [内存消耗：2,986.03kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchvideo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'vid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchvideo[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.157067s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.105266s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `cid` = 1   [ RunTime:0.104662s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T21:05:33+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/course_detail?cid=1
+[ log ] www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1 [运行时间：0.377503s][吞吐率：2.65req/s] [内存消耗：2,991.38kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course_detail[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course_detail.html [ array (
+  0 => 'menu',
+  1 => 'cid',
+  2 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.148476s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.099582s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099127s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T21:05:40+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchcourse [运行时间：0.837339s][吞吐率：1.19req/s] [内存消耗：2,995.17kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchcourse[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.158019s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.105716s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.105968s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `id` = 2  AND `cid` = 1 LIMIT 1     [ RunTime:0.105105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.106128s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` WHERE  `cid` = 1 LIMIT 1    [ RunTime:0.105189s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T21:05:41+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchvideo
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchvideo [运行时间：1.209345s][吞吐率：0.83req/s] [内存消耗：2,986.03kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchvideo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'vid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchvideo[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149358s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.100258s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `cid` = 1   [ RunTime:0.100364s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T21:06:37+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/course_detail?cid=1
+[ log ] www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1 [运行时间：0.354328s][吞吐率：2.82req/s] [内存消耗：2,991.38kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course_detail[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course_detail.html [ array (
+  0 => 'menu',
+  1 => 'cid',
+  2 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.139265s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.093678s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.092905s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T21:06:37+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchvideo
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchvideo [运行时间：0.375723s][吞吐率：2.66req/s] [内存消耗：2,986.03kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchvideo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'vid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchvideo[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.148610s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.099701s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `cid` = 1   [ RunTime:0.099000s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T21:06:38+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchcourse [运行时间：1.068720s][吞吐率：0.94req/s] [内存消耗：2,995.17kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchcourse[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149058s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.099955s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099913s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.100039s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `id` = 2  AND `cid` = 1 LIMIT 1     [ RunTime:0.099059s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.100081s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` WHERE  `cid` = 1 LIMIT 1    [ RunTime:0.099147s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T21:22:19+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/course_detail?cid=1
+[ log ] www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1 [运行时间：0.399593s][吞吐率：2.50req/s] [内存消耗：2,995.80kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'course_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->course_detail[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/course_detail.html [ array (
+  0 => 'menu',
+  1 => 'cid',
+  2 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.158437s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.105894s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105476s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T21:22:20+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchvideo
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchvideo [运行时间：0.397947s][吞吐率：2.51req/s] [内存消耗：2,990.66kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchvideo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+  'vid' => '-1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchvideo[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.158091s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.105893s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `cid` = 1   [ RunTime:0.104948s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T21:22:21+08:00 ] 47.91.151.224 210.30.108.217 POST /public/index.php/index/user/ajax_searchcourse
+[ log ] www.yinglibi.cn/public/index.php/index/user/ajax_searchcourse [运行时间：1.132908s][吞吐率：0.88req/s] [内存消耗：2,999.63kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'ajax_searchcourse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.yinglibi.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->ajax_searchcourse[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.159193s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.106375s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105655s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.106268s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `id` = 2  AND `cid` = 1 LIMIT 1     [ RunTime:0.105237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course_detail` [ RunTime:0.106338s ]
+[ sql ] [ SQL ] SELECT * FROM `course_detail` WHERE  `cid` = 1 LIMIT 1    [ RunTime:0.105428s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T21:22:24+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/question?vid=8
+[ log ] www.yinglibi.cn/public/index.php/index/user/question?vid=8 [运行时间：0.712376s][吞吐率：1.40req/s] [内存消耗：3,258.46kb] [文件加载：58]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'question',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'vid' => '8',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->question[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/question.html [ array (
+  0 => 'menu',
+  1 => 'vid',
+  2 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.138891s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.093275s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.092541s ]
+[ error ] [8]未定义变量: cid[/var/www/html/runtime/temp/3b24cfbc3ecc29cac0a033d51a87720b.php:16]
+
+---------------------------------------------------------------
+[ 2017-04-06T21:22:56+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/question?vid=8
+[ log ] www.yinglibi.cn/public/index.php/index/user/question?vid=8 [运行时间：0.391510s][吞吐率：2.55req/s] [内存消耗：3,196.62kb] [文件加载：54]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'question',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'vid' => '8',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->question[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/question.html [ array (
+  0 => 'menu',
+  1 => 'vid',
+  2 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149402s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.100391s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099506s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T21:22:56+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/Public/js/user/leipi.form.build.core.js
+[ log ] www.yinglibi.cn/public/index.php/index/user/Public/js/user/leipi.form.build.core.js [运行时间：0.042819s][吞吐率：23.35req/s] [内存消耗：2,204.38kb] [文件加载：47]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'Public',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/question?vid=8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'user',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-06T21:22:56+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/Public/js/user/leipi.form.build.plugins.js
+[ log ] www.yinglibi.cn/public/index.php/index/user/Public/js/user/leipi.form.build.plugins.js [运行时间：0.036487s][吞吐率：27.41req/s] [内存消耗：2,204.37kb] [文件加载：47]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'Public',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/question?vid=8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'user',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-06T21:24:12+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/question?vid=8
+[ log ] www.yinglibi.cn/public/index.php/index/user/question?vid=8 [运行时间：0.399395s][吞吐率：2.50req/s] [内存消耗：2,996.04kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'question',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'vid' => '8',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->question[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/question.html [ array (
+  0 => 'menu',
+  1 => 'vid',
+  2 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.157688s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.105900s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105348s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T21:24:12+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/Public/js/user/leipi.form.build.core.js
+[ log ] www.yinglibi.cn/public/index.php/index/user/Public/js/user/leipi.form.build.core.js [运行时间：0.022262s][吞吐率：44.92req/s] [内存消耗：2,204.38kb] [文件加载：47]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'Public',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/question?vid=8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'user',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-06T21:24:12+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/Public/js/user/leipi.form.build.plugins.js
+[ log ] www.yinglibi.cn/public/index.php/index/user/Public/js/user/leipi.form.build.plugins.js [运行时间：0.022126s][吞吐率：45.20req/s] [内存消耗：2,204.37kb] [文件加载：47]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'Public',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/question?vid=8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'user',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-06T21:25:34+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/question?vid=8
+[ log ] www.yinglibi.cn/public/index.php/index/user/question?vid=8 [运行时间：0.384422s][吞吐率：2.60req/s] [内存消耗：3,196.55kb] [文件加载：54]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'question',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'vid' => '8',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->question[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/question.html [ array (
+  0 => 'menu',
+  1 => 'vid',
+  2 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.150400s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.099812s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.099439s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T21:29:02+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/question?vid=8
+[ log ] www.yinglibi.cn/public/index.php/index/user/question?vid=8 [运行时间：0.377014s][吞吐率：2.65req/s] [内存消耗：2,996.04kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'question',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'vid' => '8',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->question[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/question.html [ array (
+  0 => 'menu',
+  1 => 'vid',
+  2 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149244s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.099579s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.098950s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T21:34:31+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/question?vid=8
+[ log ] www.yinglibi.cn/public/index.php/index/user/question?vid=8 [运行时间：0.357139s][吞吐率：2.80req/s] [内存消耗：3,196.55kb] [文件加载：54]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'question',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'vid' => '8',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->question[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/question.html [ array (
+  0 => 'menu',
+  1 => 'vid',
+  2 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.139143s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.093227s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.092756s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T21:34:49+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/question?vid=8
+[ log ] www.yinglibi.cn/public/index.php/index/user/question?vid=8 [运行时间：0.411361s][吞吐率：2.43req/s] [内存消耗：2,996.06kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'question',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'vid' => '8',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->question[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/question.html [ array (
+  0 => 'menu',
+  1 => 'vid',
+  2 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.158974s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.106467s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105738s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T21:34:51+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/question?vid=8
+[ log ] www.yinglibi.cn/public/index.php/index/user/question?vid=8 [运行时间：0.403655s][吞吐率：2.48req/s] [内存消耗：2,996.06kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'question',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'vid' => '8',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->question[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/question.html [ array (
+  0 => 'menu',
+  1 => 'vid',
+  2 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.158294s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.106555s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105640s ]
+
+---------------------------------------------------------------
+[ 2017-04-06T21:34:54+08:00 ] 47.91.151.224 210.30.108.217 GET /public/index.php/index/user/question?vid=8
+[ log ] www.yinglibi.cn/public/index.php/index/user/question?vid=8 [运行时间：0.399638s][吞吐率：2.50req/s] [内存消耗：2,996.06kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'question',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yinglibi.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yinglibi.cn/public/index.php/index/user/course_detail?cid=1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aalbgppp6mg6e0s97r572vrvo0',
+)
+[ info ] [ PARAM ] array (
+  'vid' => '8',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->question[ /var/www/html/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/public/../application/index/view/user/question.html [ array (
+  0 => 'menu',
+  1 => 'vid',
+  2 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.158482s ] mysql:dbname=school;host=rm-m5e59095v06t3y4m9.mysql.rds.aliyuncs.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.106194s ]
+[ sql ] [ SQL ] SELECT * FROM `users` `u` INNER JOIN `cmis` `cm` ON `u`.`cmid`=`cm`.`cmid` INNER JOIN `specialty` `sp` ON `cm`.`spid`=`sp`.`spid` INNER JOIN `faculty` `f` ON `sp`.`fid`=`f`.`fid` WHERE  `uid` = '201411041' LIMIT 1    [ RunTime:0.105587s ]
+
+---------------------------------------------------------------
